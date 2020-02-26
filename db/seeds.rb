@@ -9,8 +9,4 @@ Student.create(name: "Sarah", grade: "10th")
 
 
  
-  desc 'seed the database with some dummy data'
-  task :seed do
-    require_relative './db/seeds.rb'
-  end
-end
+ 
